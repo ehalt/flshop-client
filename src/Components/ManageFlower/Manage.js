@@ -5,14 +5,14 @@ const Manage = () => {
 
     useEffect(() => {
         // load data
-        fetch('http://localhost:5000/flowersInfo')
+        fetch('https://murmuring-reaches-14978.herokuapp.com/flowersInfo')
         .then(res => res.json())
         .then(data => setFlowersData(data));
     }, []);
 
     // delete item form mongoDB
     const deleteItem = (id) => {
-        fetch(`http://localhost:5000/deleteInfo/${id}`, {
+        fetch(`https://murmuring-reaches-14978.herokuapp.com/deleteInfo/${id}`, {
             method:'DELETE'
         })
         .then(res => res.json())

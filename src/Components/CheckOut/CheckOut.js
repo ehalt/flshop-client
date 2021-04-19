@@ -31,7 +31,7 @@ const CheckOut = () => {
     const submitHandler = () => {
         console.log(orderInfo);
         // post data to database
-        fetch(`http://localhost:5000/addOrder`, {
+        fetch(`https://murmuring-reaches-14978.herokuapp.com/addOrder`, {
             method: 'POST',
             headers: {
                 "content-type": "application/json",

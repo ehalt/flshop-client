@@ -51,7 +51,7 @@ const AddFlower = () => {
         }
 
         // post data to database
-        fetch(`http://localhost:5000/addFlowers`, {
+        fetch(`https://murmuring-reaches-14978.herokuapp.com/addFlowers`, {
             method: 'POST',
             headers: {
                 "content-type": "application/json",

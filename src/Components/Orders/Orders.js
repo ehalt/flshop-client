@@ -11,7 +11,7 @@ const Orders = () => {
 
     // fetch order info
     useEffect(() => {
-        fetch('http://localhost:5000/ordersInfo?email='+loggedInUser.email)
+        fetch('https://murmuring-reaches-14978.herokuapp.com/ordersInfo?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => setOrderdFlowers(data))
     }, [])

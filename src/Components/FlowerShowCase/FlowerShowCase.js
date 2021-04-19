@@ -9,7 +9,7 @@ const FlowerShowCase = () => {
     const [spinner , setSpinner] = useState(true);
 
     const fetchFlowers = () => {
-        fetch('http://localhost:5000/flowersInfo')
+        fetch('https://murmuring-reaches-14978.herokuapp.com/flowersInfo')
         .then(res => res.json())
         .then(data => {
             setFlowersInformation(data)
