@@ -3,8 +3,7 @@
 
 ## Visit project
 Live: [flshop](https://flshop-23fc0.web.app/) 
-
-# I have some issues to deploy on firebase, 
+ 
 
 ## Know how it works ? 
 
