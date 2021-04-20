@@ -1,10 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCuyCHkUsQi3JG5lJideTE8x2tRnyFNzK8",
-    authDomain: "flshop-47697.firebaseapp.com",
-    projectId: "flshop-47697",
-    storageBucket: "flshop-47697.appspot.com",
-    messagingSenderId: "1049232835141",
-    appId: "1:1049232835141:web:a65ea6aad74bc88d7a192c"
-  };
+  apiKey: "AIzaSyA7BqB7qSxKNPhuiY8SwlSiCVIo2ULVgjU",
+  authDomain: "flshop-23fc0.firebaseapp.com",
+  projectId: "flshop-23fc0",
+  storageBucket: "flshop-23fc0.appspot.com",
+  messagingSenderId: "545309223103",
+  appId: "1:545309223103:web:10e48adb6ce14af018fe0a"
+};
 
 export default firebaseConfig;
+
+
